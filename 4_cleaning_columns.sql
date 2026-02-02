@@ -15,3 +15,6 @@ percentage_laid_off IS NULL;
 -- So basically we deleted the rows where both total laid off and percentage laid off were NULL,
 --      because it seemed like data that we really couldn't trust and if we were to analyze data we don't
 --      want any skewed data.
+
+SELECT *
+FROM layoffs_staging;
