@@ -1,6 +1,7 @@
 SELECT *
 FROM layoffs;
 
+-- What we are trying to achieve in this project for data cleaning
 -- 1. Remove duplicates
 -- 2. Standardize the Data
 -- 3. Null Values or blank values
